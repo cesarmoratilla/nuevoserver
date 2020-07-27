@@ -83,44 +83,44 @@ Config.PoliceStations = {
 
 Config.AuthorizedWeapons = {
 	recruit = {
-		{weapon = 'WEAPON_APPISTOL', components = {0, 0, 1000, 4000, nil}, price = 10000},
+		{weapon = 'WEAPON_APPISTOL', components = {0, 0, 1000, 4000, nil}, price = 0},
 		{weapon = 'WEAPON_NIGHTSTICK', price = 0},
-		{weapon = 'WEAPON_STUNGUN', price = 1500},
-		{weapon = 'WEAPON_FLASHLIGHT', price = 80}
+		{weapon = 'WEAPON_STUNGUN', price = 0},
+		{weapon = 'WEAPON_FLASHLIGHT', price = 0}
 	},
 
 	officer = {
 		{weapon = 'WEAPON_APPISTOL', components = {0, 0, 1000, 4000, nil}, price = 10000},
-		{weapon = 'WEAPON_ADVANCEDRIFLE', components = {0, 6000, 1000, 4000, 8000, nil}, price = 50000},
+		{weapon = 'WEAPON_ADVANCEDRIFLE', components = {0, 6000, 1000, 4000, 8000, nil}, price = 0},
 		{weapon = 'WEAPON_NIGHTSTICK', price = 0},
-		{weapon = 'WEAPON_STUNGUN', price = 500},
+		{weapon = 'WEAPON_STUNGUN', price = 0},
 		{weapon = 'WEAPON_FLASHLIGHT', price = 0}
 	},
 
 	sergeant = {
 		{weapon = 'WEAPON_APPISTOL', components = {0, 0, 1000, 4000, nil}, price = 10000},
-		{weapon = 'WEAPON_ADVANCEDRIFLE', components = {0, 6000, 1000, 4000, 8000, nil}, price = 50000},
+		{weapon = 'WEAPON_ADVANCEDRIFLE', components = {0, 6000, 1000, 4000, 8000, nil}, price = 0},
 		{weapon = 'WEAPON_PUMPSHOTGUN', components = {2000, 6000, nil}, price = 70000},
 		{weapon = 'WEAPON_NIGHTSTICK', price = 0},
-		{weapon = 'WEAPON_STUNGUN', price = 500},
+		{weapon = 'WEAPON_STUNGUN', price = 0},
 		{weapon = 'WEAPON_FLASHLIGHT', price = 0}
 	},
 
 	lieutenant = {
-		{weapon = 'WEAPON_APPISTOL', components = {0, 0, 1000, 4000, nil}, price = 10000},
-		{weapon = 'WEAPON_ADVANCEDRIFLE', components = {0, 6000, 1000, 4000, 8000, nil}, price = 50000},
-		{weapon = 'WEAPON_PUMPSHOTGUN', components = {2000, 6000, nil}, price = 70000},
+		{weapon = 'WEAPON_APPISTOL', components = {0, 0, 1000, 4000, nil}, price = 0},
+		{weapon = 'WEAPON_ADVANCEDRIFLE', components = {0, 6000, 1000, 4000, 8000, nil}, price = 0},
+		{weapon = 'WEAPON_PUMPSHOTGUN', components = {2000, 6000, nil}, price = 0},
 		{weapon = 'WEAPON_NIGHTSTICK', price = 0},
-		{weapon = 'WEAPON_STUNGUN', price = 500},
+		{weapon = 'WEAPON_STUNGUN', price = 0},
 		{weapon = 'WEAPON_FLASHLIGHT', price = 0}
 	},
 
 	boss = {
-		{weapon = 'WEAPON_APPISTOL', components = {0, 0, 1000, 4000, nil}, price = 10000},
-		{weapon = 'WEAPON_ADVANCEDRIFLE', components = {0, 6000, 1000, 4000, 8000, nil}, price = 50000},
-		{weapon = 'WEAPON_PUMPSHOTGUN', components = {2000, 6000, nil}, price = 70000},
+		{weapon = 'WEAPON_APPISTOL', components = {0, 0, 1000, 4000, nil}, price = 0},
+		{weapon = 'WEAPON_ADVANCEDRIFLE', components = {0, 6000, 1000, 4000, 8000, nil}, price = 0},
+		{weapon = 'WEAPON_PUMPSHOTGUN', components = {2000, 6000, nil}, price = 0},
 		{weapon = 'WEAPON_NIGHTSTICK', price = 0},
-		{weapon = 'WEAPON_STUNGUN', price = 500},
+		{weapon = 'WEAPON_STUNGUN', price = 0},
 		{weapon = 'WEAPON_FLASHLIGHT', price = 0}
 	}
 }
@@ -128,21 +128,21 @@ Config.AuthorizedWeapons = {
 Config.AuthorizedVehicles = {
 	car = {
 		recruit = {
-			{model = 'police', price = 100}
+			{model = 'police', price = 0}
 		},
 
 		officer = {
-			{model = 'police3', price = 20000}
+			{model = 'police3', price = 0}
 		},
 
 		sergeant = {
-			{model = 'policet', price = 18500},
-			{model = 'policeb', price = 30500}
+			{model = 'policet', price = 0},
+			{model = 'policeb', price = 0}
 		},
 
 		lieutenant = {
-			{model = 'riot', price = 70000},
-			{model = 'fbi2', price = 60000}
+			{model = 'riot', price = 0},
+			{model = 'fbi2', price = 0}
 		},
 
 		boss = {}
@@ -156,11 +156,11 @@ Config.AuthorizedVehicles = {
 		sergeant = {},
 
 		lieutenant = {
-			{model = 'polmav', props = {modLivery = 0}, price = 200000}
+			{model = 'polmav', props = {modLivery = 0}, price = 0}
 		},
 
 		boss = {
-			{model = 'polmav', props = {modLivery = 0}, price = 100000}
+			{model = 'polmav', props = {modLivery = 0}, price = 0}
 		}
 	}
 }
