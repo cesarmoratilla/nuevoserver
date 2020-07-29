@@ -28,12 +28,9 @@ Config.Zones = {
 		Legal = true,
 		Items = {
 			{ weapon = 'WEAPON_ADVANCEDRIFLE', components = { 0, 6000, 1000, 4000, 8000, nil }, price = 500000, ammoPrice = 20, AmmoToGive = 20 }
-			{ weapon = 'WEAPON_NavyRevolver', components = { 0, 6000, 1000, 4000, 8000, nil }, price = 200000, ammoPrice = 20, AmmoToGive = 20 }
-			{ weapon = 'WEAPON_AssaultSMG', components = { 0, 6000, 1000, 4000, 8000, nil }, price = 300000, ammoPrice = 20, AmmoToGive = 20 }
-			{ weapon = 'WEAPON_Pistol', components = { 0, 6000, 1000, 4000, 8000, nil }, price = 300000, ammoPrice = 20, AmmoToGive = 20 }
+	   
+    },
 
-			
-		},
 		Locations = {
 			vector3(-1306.2, -394.0, 35.6)
 		}

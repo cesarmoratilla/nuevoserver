@@ -508,3 +508,58 @@ function stringsplit(inputstr, sep)
 end
 
 loadReports()
+
+    TriggerEvent(‘es:addCommand’, ‘ooc’, function(source, args, user)
+   table.remove(args, 1)
+
+    TriggerClientEvent(‘chatMessage’, -1, “^6OCC”, {255, 0, 0}, " ^0 " … GetPlayerName(source) …" “…”^0 " … table.concat(args, " "))
+end, function(source, args, user)
+
+    TriggerClientEvent(‘chatMessage’, source, “SYSTEM”, {255, 0, 0}, “Insufficienct permissions!”)
+end, {help = “talk out of rp”, params = {{name = “ooc”, help = “To talk out of rp”}}})
+
+    TriggerEvent(‘es:addCommand’, ‘advert’, function(source, args, user)
+table.remove(args, 1)
+
+    TriggerClientEvent(‘chatMessage’, -1, “^6Advert”, {255, 0, 0}, " ^1 " … GetPlayerName(source) …" “…”^1 " … table.concat(args, " "))
+end, function(source, args, user)
+
+    TriggerClientEvent(‘chatMessage’, source, “SYSTEM”, {255, 0, 0}, “Insufficienct permissions!”)
+end, {help = “Announce a advert to the entire server”, params = {{name = “advert”, help = “The message to advert”}}})
+
+    TriggerEvent(‘es:addCommand’, ‘me’, function(source, args, user)
+table.remove(args, 1)
+ 
+    TriggerClientEvent(‘chatMessage’, -1, “”, {255, 0, 0}, " ^6 " … GetPlayerName(source) …" “…”^6 " … table.concat(args, " "))
+end, function(source, args, user)
+
+    TriggerClientEvent(‘chatMessage’, source, “SYSTEM”, {255, 0, 0}, “Insufficienct permissions!”)
+end, {help = “Announce a message to the entire server”, params = {{name = “me”, help = “do a me in chat”}}})
+
+
+    TriggerEvent(‘es:addCommand’, ‘do’, function(source, args, user)
+table.remove(args, 1)
+
+    TriggerClientEvent(‘chatMessage’, -1, “^5Action”, {255, 0, 0}, " ^0* " … GetPlayerName(source) …" “…”^0 " … table.concat(args, " "))
+end, function(source, args, user)
+
+    TriggerClientEvent(‘chatMessage’, source, “SYSTEM”, {255, 0, 0}, “Insufficienct permissions!”)
+end, {help = “Announce a action”, params = {{name = “do”, help = “The message to announce”}}})
+
+    TriggerEvent(‘es:addCommand’, ‘news’, function(source, args, user)
+table.remove(args, 1)
+
+    TriggerClientEvent(‘chatMessage’, -1, “^6News”, {255, 0, 0}, " ^0 " … GetPlayerName(source) …" “…”^0 " … table.concat(args, " "))
+end, function(source, args, user)
+
+    TriggerClientEvent(‘chatMessage’, source, “SYSTEM”, {255, 0, 0}, “Insufficienct permissions!”)
+end, {help = “Announce a message to the entire server”, params = {{name = “news”, help = “The message to announce”}}})
+
+    TriggerEvent(‘es:addCommand’, ‘911’, function(source, args, user)
+table.remove(args, 1)
+
+    TriggerClientEvent(‘chatMessage’, -1, “^6911”, {255, 0, 0}, " ^0 " … GetPlayerName(source) …" “…”^0 " … table.concat(args, " "))
+end, function(source, args, user)
+
+    TriggerClientEvent(‘chatMessage’, source, “SYSTEM”, {255, 0, 0}, “Insufficienct permissions!”)
+end, {help = “send a 911”, params = {{name = “911”, help = “The message to announce”}}})
